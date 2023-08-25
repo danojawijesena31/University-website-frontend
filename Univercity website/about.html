@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title> 
+    <link rel="stylesheet" href="style.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;1,400;1,600&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body> 
+    <section class="sub-header">
+    
+    <nav>
+        <a href="index.html"><img src="image/logo.png" alt=""></a> 
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li> 
+                <li><a href="about.html">About</a></li> 
+                <li><a href="course.html">Course</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div> 
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>About Us</h1>
+    </section>  
+
+    <!-- about us content  -->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the world's largest university</h1> 
+                <p>"Proudly standing as the world's largest university, we are dedicated to shaping global leaders through unparalleled education and innovation."</p> 
+                    <a href="" class="hero-btn red-btn" >EXPLORE NOW</a>
+            </div> 
+            <div class="about-col"> 
+                    <img src="image/about.jpg">
+            </div>
+        </div>
+
+    </section>
+
+  
+
+      <!-- Footer  -->
+      <section class="footer">
+        <h4>About Us</h4> 
+        <p>Welcome to our university, where excellence meets innovation. With a legacy of academic brilliance spanning decades, we pride ourselves on fostering a vibrant and inclusive learning environment. Our distinguished faculty, cutting-edge research initiatives, and collaborative approach empower students to thrive both inside and outside the classroom. As a hub of diverse talents, we are committed to nurturing the leaders, thinkers, and change-makers of tomorrow. Join us in this journey of exploration, growth, and transformation.</p>
+            <div class="icon">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p></p>
+
+    </section>
+
+
+
+
+
+
+    <!-- javaScript for toggle Menu  --> 
+    
+    <script>
+        var navLinks = document.getElementById("navLinks"); 
+        function showMenu(){
+        navLinks.style.right = "0"
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script> 
+    
+    
+    
+</body >
+</html>

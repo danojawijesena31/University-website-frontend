@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title> 
+    <link rel="stylesheet" href="style.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;1,400;1,600&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body> 
+    <section class="sub-header">
+    
+    <nav>
+        <a href="index.html"><img src="image/logo.png" alt=""></a> 
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li> 
+                <li><a href="about.html">About</a></li> 
+                <li><a href="course.html">Course</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div> 
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Our Courses</h1>
+    </section>  
+
+    <!-- Course  --> 
+    <section class="course"> 
+        <h1>Course We offer</h1> 
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="row">
+            <div class="course-col"> 
+                <h3>Intermediate</h3> 
+                <p>The intermediate program at our university empowers students with a strong foundation for their academic journey. With a balanced curriculum that bridges the gap between high school and advanced studies, our intermediate program fosters critical thinking, communication, and problem-solving skills. Students benefit from dedicated faculty who provide personalized guidance and support, helping them explore their interests and make informed decisions about their future majors. Our comprehensive approach to education within the intermediate program not only equips students with subject knowledge but also nurtures a passion for lifelong learning.</p>
+            </div> 
+            <div class="course-col"> 
+                <h3>Degree</h3> 
+                <p>At "Eduford", a world-class education is the cornerstone of your journey towards a brighter future. Our degrees are more than just qualifications; they represent a commitment to excellence, innovation, and personal growth. With a diverse range of undergraduate and postgraduate programs led by accomplished faculty members, students here engage in transformative learning experiences that blend rigorous academics with real-world applications. Whether you're taking your first steps into higher education or seeking to specialize further, our degrees empower you to thrive in an ever-evolving global landscape. Join us in shaping your path to success and embracing the countless opportunities that await you with best degree.</p>
+            </div>
+            <div class="course-col"> 
+                <h3>Post Graduation</h3> 
+                <p>Embark on a journey of advanced exploration and expertise with our postgraduate programs at Eduford. Designed to elevate your knowledge and skills to the pinnacle of your field, our postgraduate offerings encompass a wide array of disciplines and cutting-edge research opportunities. With a distinguished faculty, a vibrant community of scholars, and access to unparalleled resources, our university provides the perfect platform for you to excel in your chosen area of study. Whether you aspire to make groundbreaking discoveries, drive innovation, or take on leadership roles, our postgraduate programs are tailored to propel you towards a future of limitless possibilities.</p>
+            </div>
+        </div>
+
+    </section>   
+    <!-- facilities  -->
+    <section class="facilities">
+            <h1>Our Facilities</h1>
+            <p>Our facilities ensure the ideal environment for the students</p> 
+    
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="image/library.png">
+                    <h3>World Class Library</h3>
+                    <p> The Collage Library is the place where different types of academic books,news papers,magazines,novels,storybooks,etc are available for the students to study</p>
+                </div> 
+                <div class="facilities-col">
+                    <img src="image/basketball.png">
+                    <h3>Largest Play Ground</h3>
+                    <p>Not only it keeps the body fit,but also builds the inner qualities of the students.</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="image/cafeteria.png">
+                    <h3>Tasty and Healthly Food</h3>
+                    <p>Our college has a hygienic and spacious canteen for refreshment of students with tasty and healthy food.</p>
+                </div>
+            </div>
+    
+    </section> 
+   
+
+  
+
+      <!-- Footer  -->
+      <section class="footer">
+        <h4>About Us</h4> 
+        <p>Welcome to our university, where excellence meets innovation. With a legacy of academic brilliance spanning decades, we pride ourselves on fostering a vibrant and inclusive learning environment. Our distinguished faculty, cutting-edge research initiatives, and collaborative approach empower students to thrive both inside and outside the classroom. As a hub of diverse talents, we are committed to nurturing the leaders, thinkers, and change-makers of tomorrow. Join us in this journey of exploration, growth, and transformation.</p>
+            <div class="icon">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+           
+
+    </section>
+
+
+
+
+
+
+    <!-- javaScript for toggle Menu  --> 
+    
+    <script>
+        var navLinks = document.getElementById("navLinks"); 
+        function showMenu(){
+        navLinks.style.right = "0"
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script> 
+    
+    
+    
+</body >
+</html>
